@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- for a multithread -->
+<!--<suite name="TestSuite" thread-count="2" parallel="tests">-->
+<suite name="TestSuite" parallel="false">
+    <test name="Twitter API TEST">
+        <classes>
+            <class name="tweettest.TweetClientTest"></class>
+            <!--  <class name="test.RegistrationPageTest"></class> -->
+        </classes>
+    </test>
+</suite>
+
